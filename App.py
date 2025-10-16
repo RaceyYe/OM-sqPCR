@@ -589,22 +589,6 @@ class PrimerAnalysisBatchApp:
                 # Create directory name with headers
                 task = f"{task_prefix}_{srna_header_clean}_x_{stemloop_header_clean}"
 
-                # # 👇 Skip problematic task regardless of prefix
-                # if task.endswith("miR-17-5p_x_stemloop_3"):
-                #     self.error_log.append(f"Skipped problematic task: {task}")
-                #     continue
-
-                # # Determine task name
-                # task_name = str(pair_info['Task'])
-                # if 'Priority' in task_name:
-                #     task_prefix = "Priority"
-                # else:
-                #     task_prefix = f"Task_{i + 1}"
-                #
-                # # Create a short identifier from the sRNA sequence
-                # srna_id = pair_info['sRNA_sequence'][:6]
-                # task = f"{task_prefix}_{srna_id}"
-
                 out_path = os.path.join(self.output_dir, task)
 
                 # Get selected criteria and forbidden sequence
