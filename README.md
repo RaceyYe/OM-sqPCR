@@ -25,10 +25,10 @@ The repository is structured to support reproducible bioinformatics workflows an
 OM-sqPCR/
 │
 ├── Primer_Design/
-│   ├── App.py
-│   ├── core_algorithms/
-│   ├── GUI/
-│   └── utilities/
+│   ├── modules/
+│   ├── App.py/
+│   ├── integrated_execution.py/
+│   └── outputs_integration.py/
 │
 ├── Machine_Learning/
 │   ├── preprocessing/
