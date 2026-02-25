@@ -196,7 +196,7 @@ python train_model.py --model svm --cv nested
 
 ## License
 
-Specify your license here (e.g., MIT, GPL-3.0, etc.)
+MIT licience
 
 ---
 
